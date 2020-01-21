@@ -1,0 +1,1 @@
+from .views import index as id,recent as rc
