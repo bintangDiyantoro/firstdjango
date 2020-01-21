@@ -11,8 +11,10 @@
 <body>
     <h1>Welcome to my blog!</h1>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog/recent/">Recent</a></li>
+        <li><a href="http://localhost:8000">Home</a></li>
+        {% for link,name in nav %}
+            <li><a href="{{link}}">{{name}}</a></li>
+        {% endfor %}
     </ul>
 </body>
 
