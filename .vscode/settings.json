@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "Env/bin/python3.8"
+    "python.pythonPath": "Env/bin/python3.8",
+    "git.ignoreLimitWarning": true
 }
