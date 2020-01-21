@@ -2,7 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request,'blog.html')
+    data = {"title": "Home", "contributor": "Bean"}
+    return render(request, "blog/index.html",data)
+
 
 def recent(request):
-    return render(request,'recent.html')
+    data = {"title": "Recent Post", "contributor": "Bean"}
+    return render(request, "blog/recent.html",data)
+
